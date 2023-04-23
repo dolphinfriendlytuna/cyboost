@@ -91,10 +91,7 @@ if COMPILE:
 setup(
     name='cyboost',
     version='0.0.1',
-    #description='CrypPro Algos',
-    #author='CrypPro',
-    #packages=find_packages(include=['raptor*']),
-    # python_requires='>=3.8.10',
-    #install_requires=requirements,
+    description='Boost for Cython',
+    author='Anthony MacKinnon',
     ext_modules=ext_modules,
 )
